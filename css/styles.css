@@ -128,9 +128,9 @@ button {
 }
 .main-heading {
   
-  font-size: 40px;
+  font-size: 30px;
   position: relative;
-  left: 28%;
+  left: 50%;
   color: white;
   font-weight: bold;
 }
@@ -172,7 +172,7 @@ button {
   align-items: center;
   justify-content: center;
   position: relative;
-  left:20% ;
+  left:40% ;
   color: #fff;
   font-weight: 500;
   
@@ -388,6 +388,7 @@ footer {
 .input-entrada{
   position: relative;
   top: 30px;
+  left: 100px;
  
 
 }
@@ -409,12 +410,14 @@ footer {
   position: relative;
   top: 5%;
   font-size: 30px;
+  right: 10%;
 }
 
 
 .img-grafico{
   position: relative;
   top: 10%;
+  right: 10%;
 }
 
 
