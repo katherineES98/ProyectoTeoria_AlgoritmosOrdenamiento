@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
 
-    <!-- ==== STYLE.CSS ==== -->
-    <link rel="stylesheet" href="../css/styles.css" />
+    
 
-    <!-- ====  REMIXICON CDN ==== -->
+    
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
-    />
 
+    />
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.2/chart.js" integrity="sha512-/MqITtqQfmjLnDtBC8yxrsERbn3dvqyxtc1B/3x57xp+J3srVBcgyr9VXgDj8BYScxSJ9MauIMY7F9Fr2TJHkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- ==== HEADER ==== -->
+    
     <header class="container header">
-      <!-- ==== NAVBAR ==== -->
+      
       <nav class="nav">
       
 
@@ -35,11 +36,7 @@
 
 
           <ul class="nav_menu_list ">
-            <li class="nav_menu_item link_inicio">
-              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Ayuda
-               </button>
-            </li>  
+            
             <li class="nav_menu_item">
               <a href="./quicksort.html" class="nav_menu_link">QuickSort</a>
             </li>
@@ -52,6 +49,12 @@
             <li class="nav_menu_item link_inicio">
               <a href="#" class="nav_menu_link link_inicio">Inicio</a>
             </li>
+
+            <li class="nav_menu_item link_inicio">
+              <button type="button" class="btn btn-primary btn-help" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Ayuda
+               </button>
+            </li>  
 
            
           
@@ -81,13 +84,57 @@
                 Ordenar
               </button>
             </div>
+            <div class="ordenar-b">
+              <img class="img-grafico" src="../img/bucket-sort.svg" alt="team-img" />
+            </div>
           </div>
           <div class="grid-item-2">
             <div class="team_img_wrapper">
                 <h2 class="text-graf">Grafico</h2>
-              <img class="img-grafico" src="../img/binsort.png" alt="team-img" />
+              <img class="img-graf" src="../img/binsort.png" alt="team-img" />
             </div>
           </div>
         </div>
       </div>
     </section>
+ 
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="icon-svg">
+            <h5 class="modal-title " id="staticBackdropLabel">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-question-diamond-fill" viewBox="0 0 16 16">
+                    <path d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435zM5.495 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
+                  </svg>
+            </h5>
+        </div>
+       
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p>El ordenamiento por casilleros (bucket sort o bin sort, en inglés) es un algoritmo de ordenamiento que distribuye todos los elementos a ordenar entre un número finito de casilleros. Cada casillero sólo puede contener los elementos que cumplan unas determinadas condiciones. En el ejemplo esas condiciones son intervalos de números. Las condiciones deben ser excluyentes entre sí, para evitar que un elemento pueda ser clasificado en dos casilleros distintos. Después cada uno de esos casilleros se ordena individualmente con otro algoritmo de ordenación (que podría ser distinto según el casillero), o se aplica recursivamente este algoritmo para obtener casilleros con menos elementos.</p>
+      
+       
+
+    </div>
+   
+    </div>
+  </div>
+</div>
+
+   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+   
+    <script src="../script.js" defer></script>
+
+
+
+     
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+crossorigin="anonymous"></script>
+  </body>
+</html>

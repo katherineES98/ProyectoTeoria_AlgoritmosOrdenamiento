@@ -121,7 +121,7 @@ button {
   gap: 4rem;
 }
 .grid-item-1 {
-  padding-top: 9rem;
+  padding-top: 6rem;
   padding-left: 1.5rem;
   position: relative;
   right: 35%;
@@ -416,8 +416,15 @@ footer {
 
 .img-grafico{
   position: relative;
-  top: 10%;
+  top: -5%;
   right: 10%;
+}
+
+.img-graf{
+  position: relative;
+  top: 5%;
+  right: 10%;
+
 }
 
 .btn-help{
@@ -445,3 +452,21 @@ footer {
   color: #ffd700;
 }
 
+.ordenar{
+  position: relative;
+  top: 10%;
+  left: 32%;
+}
+
+.ordenar-b{
+  position: relative;
+  top: 10%;
+  left: 25%;
+}
+
+.ordenar-s{
+  position: relative;
+  top: 10%;
+  left: 44%;
+
+}
