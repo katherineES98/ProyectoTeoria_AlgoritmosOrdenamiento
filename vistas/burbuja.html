@@ -55,35 +55,39 @@
           <i class="ri-menu-line"></i>
         </button>
       </nav>
-      <h1 class="text-alg">Ordenamiento Burbuja </h1>
+      <h2 class="text-alg">Ordenamiento Burbuja </h2>
     </header>
 
     <section class="wrapper">
       <div class="container">
         <div class="grid-cols-2">
           <div class="grid-item-1">
-            <h3 class="main-heading">
-              Cantidad
-            </h3>
-            <div class="input-entrada">
-                <input class="inpu-text" type="text">
-            </div>
-           
-            <div class="btn_wrapper">
-              <button class="btn view_more_btn">
+            
+            <div>
+              <label for="uname" class="main-heading">Cantidad </label> 
+              <input class="inpu-text" type="number" name="cantidad" id="cantidad" min="3" max="20" required size="10"  minlength="4" maxlength="8">
+              <button class=" view_more_btn" >
                 Ordenar
               </button>
             </div>
+           
+            <div class="btn_wrapper">
+             
+            </div>
             <div class="ordenar">
-              <img class="img-ordenamiento" src="../img/burbuja.gif" alt="team-img" />
+        
             </div>
           </div>
           <div class="grid-item-2">
-            <div class="team_img_wrapper">
-             
-                <h2 class="text-graf">Grafico</h2>
-              <img class="img-grafico" src="../img/burb.png" alt="team-img" />
+           <div class="row">
+            <div id='overlay' class="col-sm-6">
+              <p id="myChart">bdbfbbdfbdf</p>
             </div>
+            <div class="col-sm-6">
+              <div id="arreglo"><p>HOLAAA</p></div>
+            </div>
+           </div>
+    
           </div>
         </div>
       </div>
