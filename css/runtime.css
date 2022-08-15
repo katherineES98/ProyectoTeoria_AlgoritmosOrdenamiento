@@ -1,0 +1,127 @@
+#circulo {
+    width: 40px;
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+    border-radius: 10%;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+
+#overlay {
+    height: 0px;
+    overflow: visible;
+    pointer-events: none;
+    background: none !important;
+}
+
+
+/*
+#arreglo{
+    background-color: crimson;
+    width: 2.5em;
+    height: 2.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+*/
+
+/* #arreglo div  */
+.dato{
+    text-align: center;
+    color: floralwhite;
+    width: 2.5em;
+    height: 2.5em;
+    margin-top: 0.10em;
+    margin-bottom: auto;
+    margin-left: 2.7em;
+    float: left;
+    background-color: rebeccapurple;
+    
+}
+
+.colorOrdenada {
+    background-color:  #50dfb8;
+    margin-left: 10px;
+    font-size: 120%;
+    margin-bottom: 30px;
+}
+
+.colorAleatoria {
+    background-color: #fcb8cd;
+    margin-left: 10px;
+    font-size: 120%;
+    margin-bottom: 30px;
+ 
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+.cubeta{
+    width: 40px;
+    height: 40px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    border-radius: 10%;
+    margin-top: 4px;
+    float: left;
+    background-color:goldenrod;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin-left: 2px;
+    margin-right: 2px;
+    float: left;
+    border-top: 20px solid #f00;
+  }
+  #cubetas{
+      width: 500px;
+      height: 350px;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+.bg-dark {
+    background-color: rgb(134, 115, 245) !important;
+}
+
+.jumbotron {
+    background-color: #fff !important;
+}
+
+#trapezoid {
+      border-bottom: 100px solid red;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0;
+      width: 100px;
+    }
+  
+.col {
+       
+        flex-basis: 0;
+      
+        flex-grow: 1;
+        max-width: 100%;
+    }
+
