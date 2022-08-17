@@ -391,6 +391,12 @@ button {
   position: relative;
   top: 15%;
 }
+
+.alg_times{
+  position: relative;
+  top: 20%;
+}
+
 .alg_sha{
   position: relative;
 
