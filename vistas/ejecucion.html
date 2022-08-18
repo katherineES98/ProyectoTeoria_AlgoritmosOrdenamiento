@@ -30,8 +30,10 @@
 
         <nav class="nav">
             <div class="logo">
-                <h5>Ordenamiento Binsort</h>
+                <h5 class="textoEjec">Tiempo de Ejecución</h>
             </div>
+
+            
 
             <div class="nav_menu" id="nav_menu">
                 <button class="close_btn" id="close_btn">
@@ -48,10 +50,13 @@
                         <a href="./shakerSort.html" class="nav_menu_link">Shakersort</a>
                     </li>
                     <li class="nav_menu_item">
+                        <a href="./binsort.html" class="nav_menu_link">Bin sort</a>
+                      </li>
+                    <li class="nav_menu_item">
                         <a href="./burbuja.html" class="nav_menu_link">Burbuja</a>
                     </li>
                     <li class="nav_menu_item link_inicio">
-                        <a href="#" class="nav_menu_link link_inicio">Inicio</a>
+                        <a href="../index.html" class="nav_menu_link link_inicio">Inicio</a>
                     </li>
 
 
@@ -69,10 +74,10 @@
         <div class="container">
             <div class="col-sm-12">
                 <center>
-                    <div class="cal1">
+                    <div class="tiempoEjec">
                         <label class="main-heading" for="cantidad">Cantidad </label>
                         <input class="input-can" type="number" name="cantidadDatos" id="cantidadDatos" min="3" max="20">
-                        <button class="btn-ordenar" onclick="tiempos()" id="ordenar">Ordenar</button>
+                        <button class="btn-ordenar" onclick="tiempos()" id="ordenar">Calcular</button>
                       </div>
                 </center>
             </div>

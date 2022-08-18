@@ -42,20 +42,26 @@ button {
   outline: none;
   cursor: pointer;
 }
-/* ==== CONTAINER ==== */
+/* ==== CONTAINER
 .container {
-  width: 100%;
-}
-@media screen and (min-width: 1040px) {
-  .container {
     width: 1040px;
     margin: 0 auto;
   }
+
+==== */
+.container {
+  width: 100%;
 }
-/* ==== HEADER ==== */
+/*@media screen and (min-width: 1040px) {
+  
+  
+
+}*/
+
+/* ==== HEADER   padding: 0 1.7rem;==== */
 .header {
   height: var(--fixed-header-height);
-  padding: 0 1.7rem;
+  padding: 0 1.3rem;
 }
 
 /* ==== NAV ==== */
@@ -86,15 +92,16 @@ button {
   display: flex;
   align-items: center;
 }
-.nav_menu_list .nav_menu_item {
-  margin: 0 2rem;
+ .nav_menu_item {
+  margin: 0 20px;
 }
 .nav_menu_item .nav_menu_link {
-  font-size: 16.5px;
+   font-size: 16.5px;
   line-height: 27px;
   color: white;
   text-transform: capitalize;
   letter-spacing: 0.5px;
+
 }
 .nav_menu_link:hover {
   color: var(--primary-color);
@@ -479,7 +486,7 @@ footer {
 .div-calcular{
  position: relative;
  left: 5%;
- top: 100px;
+ top: 70px;
  text-align: center;
 
 
@@ -543,6 +550,10 @@ footer {
  margin-top: 30px;
 
 }
+.tiempoEjec{
+  text-align: center;
+  margin-top: 30px;
+}
 
 .div-lista{
   position: relative;
@@ -565,3 +576,15 @@ footer {
 }
 
 
+.img-java{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-shaket{
+  width: 100%;
+}
+
+.textoEjec{
+  margin-right: 200px;
+}
