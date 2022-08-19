@@ -231,6 +231,7 @@ function tiempos() {
       "rgba(38,231,28,1,0.3)", //green
     ];
     labels = ["Quicksort", "Burbuja", "Bucketsort", "Shakesort"];
+    
     var ctx = document.getElementById("myChart").getContext("2d");
     var chart = new Chart(ctx, {
       type: "radar",
@@ -240,17 +241,43 @@ function tiempos() {
         datasets: [
           {
             label: `${value} Datos`,
+            fontColor: 'white',
             backgroundColor: "#FFFFFF50",
             data: datos3,
           },
         ],
       },
+
+      options:{
+                 scales:{
+                  r: {
+          
+                    pointLabels:{
+                        color: 'rgb(54, 162, 235)',
+                    },
+
+                  }
+                 }  ,
+           
+            legend:{
+              fontColor:'#fff',
+              labels:{
+                fontColor:'#fff'
+              }
+            }
+      },
     });
+
+    
 
     console.log(sortedArray);
     console.log(tburbuja + "ms  " + tquicksort + "ms");
     console.log(cub);
+
+    
   }
+
+  
 
   var cantidadDatos = document.getElementById("cantidadDatos").value;
 
