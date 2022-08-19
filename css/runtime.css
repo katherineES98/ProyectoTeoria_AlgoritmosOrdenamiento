@@ -52,6 +52,18 @@
     
 }
 
+.d{
+    text-align: center;
+    color: floralwhite;
+    width: 2.5em;
+    height: 2.5em;
+    margin-top: 0.10em;
+    margin-bottom: auto;
+    margin-left: 2.7em;
+    background-color: rebeccapurple;
+
+}
+
 .colorOrdenada {
     background-color:  #50dfb8;
     margin-left: 10px;

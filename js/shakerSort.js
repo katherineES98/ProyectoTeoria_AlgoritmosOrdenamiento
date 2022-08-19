@@ -13,13 +13,11 @@ var t0;
 var t1;
 
 
-
-
 function ordenar() {
     //document.getElementById('arreglo').innerHTML = ``;
     document.getElementById('listaOrdenada').innerHTML = ``;
     document.getElementById('shaker').innerHTML = ``;
-    comparando = '#bec1c8';
+    comparando = '#50dfb8';
     // segundos = document.getElementById('segundos').value;
     cantidad = document.getElementById('cantidad').value;
     document.getElementById('listaAleatoria').innerHTML = ``;
@@ -28,7 +26,7 @@ function ordenar() {
     } else {
         for (let i = 0; i < cantidad; i++) {
             datos[i] = Math.floor(Math.random() * 100);
-            backgroundColor[i] = 'rgba( 197, 202, 233 )';
+            backgroundColor[i] = '#fcb8cd';
             document.getElementById('listaAleatoria').innerHTML += `
          <div class="col colorAleatoria">${datos[i]}</div>
         `;
@@ -50,7 +48,7 @@ async function shaker(arr) {
 
 
         for (let i = 0; i < arr.length - 1; i++) {
-            backgroundColor[i] = '#89aabf';
+            backgroundColor[i] = '#fcb8cd';
             //backgroundColor[i+1] =  'rgba(20, 248, 252)';
             graficar(arr);
             await timer(0.1 * 1000);
@@ -65,7 +63,7 @@ async function shaker(arr) {
                 console.log(arr);
 
             }
-            backgroundColor[i] = 'rgba( 197, 202, 233 )';
+            backgroundColor[i] = '#fcb8cd';
         }
 
         if (!ordenando)
@@ -91,7 +89,7 @@ async function shaker(arr) {
                 console.log(arr);
             }
 
-            backgroundColor[j] = 'rgba( 197, 202, 233 )';
+            backgroundColor[j] = '#fcb8cd';
 
         }
 
@@ -141,7 +139,7 @@ function graficar(datos) {
             legend: {
                 labels: {
                     fontColor: "white",
-                    fontSize: 10
+                    fontSize: 13
                 }
             },
 

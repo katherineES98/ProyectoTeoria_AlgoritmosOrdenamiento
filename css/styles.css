@@ -545,6 +545,10 @@ footer {
   width: 500px!important;
 }
 
+#quicksort{
+  height: 300px !important; ;
+  width: 500px!important;
+}
 .cal1{
  text-align: center;
  margin-top: 30px;
@@ -591,4 +595,27 @@ footer {
 
 .graf{
   margin-top: 50px;
+}
+
+.myChart {
+margin-top: 100px!important;
+margin-left: 200px!important;
+}
+
+.myQ {
+  margin-top: 100px!important;
+  margin-left: 100px!important;
+
+}
+
+.color1 {
+ background-color: rgba(252, 20, 20);
+}
+
+.color2 {
+ background-color: rgba(255, 99, 132, 0.2);
+}
+
+.color3 {
+ background-color: rgba(255, 200, 132, 0.2);
 }
