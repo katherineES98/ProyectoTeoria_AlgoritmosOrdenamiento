@@ -17,7 +17,7 @@ function ordenar() {
     //document.getElementById('arreglo').innerHTML = ``;
     document.getElementById('listaOrdenada').innerHTML = ``;
     document.getElementById('shaker').innerHTML = ``;
-    comparando = '#50dfb8';
+    comparando = 'rgba(127,255,212)';
     // segundos = document.getElementById('segundos').value;
     cantidad = document.getElementById('cantidad').value;
     document.getElementById('listaAleatoria').innerHTML = ``;
@@ -26,7 +26,7 @@ function ordenar() {
     } else {
         for (let i = 0; i < cantidad; i++) {
             datos[i] = Math.floor(Math.random() * 100);
-            backgroundColor[i] = '#fcb8cd';
+            backgroundColor[i] = 'rgb(255,228,225)';
             document.getElementById('listaAleatoria').innerHTML += `
          <div class="col colorAleatoria">${datos[i]}</div>
         `;
@@ -48,7 +48,7 @@ async function shaker(arr) {
 
 
         for (let i = 0; i < arr.length - 1; i++) {
-            backgroundColor[i] = '#fcb8cd';
+            backgroundColor[i] = 'rgba(20, 248, 252)';
             //backgroundColor[i+1] =  'rgba(20, 248, 252)';
             graficar(arr);
             await timer(0.1 * 1000);
@@ -63,7 +63,7 @@ async function shaker(arr) {
                 console.log(arr);
 
             }
-            backgroundColor[i] = '#fcb8cd';
+            backgroundColor[i] = 'rgb(255,228,225) ';
         }
 
         if (!ordenando)
@@ -89,7 +89,7 @@ async function shaker(arr) {
                 console.log(arr);
             }
 
-            backgroundColor[j] = '#fcb8cd';
+            backgroundColor[j] = 'rgb (255,228,225)';
 
         }
 

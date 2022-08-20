@@ -243,26 +243,26 @@ function tiempos() {
             label: `${value} Datos`,
             fontColor: 'white',
             backgroundColor: "#FFFFFF50",
+            pointBackgroundColor: "#FF6497",
             data: datos3,
           },
         ],
       },
 
       options:{
-                 scales:{
-                  r: {
-          
-                    pointLabels:{
-                        color: 'rgb(54, 162, 235)',
-                    },
-
-                  }
-                 }  ,
+        scale:{
+          pointLabels:{
+             fontColor:"#ffff",
+             fontSize: 15
+             
+          }
+        },
            
             legend:{
               fontColor:'#fff',
               labels:{
-                fontColor:'#fff'
+                fontColor:'#fff',
+                fontSize: 15
               }
             }
       },
